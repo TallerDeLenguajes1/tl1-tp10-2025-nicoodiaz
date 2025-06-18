@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
 
 namespace EspacioTareas;
-
+//Clase con la estructura de datos que quiero serializar o deserializar
 public class Tareas
 {
     [JsonPropertyName("userId")]
